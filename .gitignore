@@ -1,0 +1,70 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Virtualenvs ---
+.venv/
+venv/
+env/
+
+# --- Julia / local tool caches ---
+.julia_depot/
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# --- Logs, backups, accidental junk ---
+logs/
+backup_runs/
+*.bak
+*.log
+**/logger.txt
+delete.txt
+src/=2.0.0
+
+# --- Generated / large experiment artefacts (do not ship in the PR) ---
+# Mined tensors and trained models
+data/HEA/*.npy
+data/UCCSD/*.npy
+data/NN_HEA/*.pt
+data/HEA/model_*.json
+data/UCCSD/model_*.json
+data/HEA/stage2_profiling_*.csv
+data/UCCSD/stage2_profiling_*.csv
+data/NN_HEA/stage2b_profiling_*.csv
+data/*/stage3_memory_series_*.csv
+
+# Post-hoc analysis plot dumps (regenerate with run_all_analysis.sh)
+data/O1/
+data/O2/
+data/O3/
+data/O4/
+
+# Upstream-style pretrained ADPT/QCELS models (not used by HEA / NN_HEA / UCCSD)
+models/*.json
+
+# Diagnostics script outputs
+diagnostics/*.csv
+
+# Optional: uncomment if Final_VQE / Stage-3 energy CSVs should stay local-only
+# data/Final_VQE_run/
+# data/HEA/energies_stage3_*.csv
+# data/NN_HEA/energies_stage3_*.csv
+# data/UCCSD/energies_stage3_*.csv
+# data/HEA/records_*.csv
+# data/UCCSD/records_*.csv

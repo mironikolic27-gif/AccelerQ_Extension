@@ -1,0 +1,21 @@
+ham_prefix,n_qubits,dataset,reference_energy,reference_type,notes
+20qubits_00,20,QunaSys,-22.046059902,exact,QunaSys reference Value column
+20qubits_01,20,QunaSys,-22.046059902,exact,QunaSys reference Value column
+20qubits_02,20,QunaSys,-22.046059902,exact,QunaSys reference Value column
+20qubits_03,20,QunaSys,-22.046059902,exact,QunaSys reference Value column
+20qubits_04,20,QunaSys,-22.046059902,exact,QunaSys reference Value column
+28qubits_00,28,QunaSys,-30.748822808,exact,QunaSys reference Value column
+28qubits_01,28,QunaSys,-30.748822808,exact,QunaSys reference Value column
+28qubits_02,28,QunaSys,-30.748822808,exact,QunaSys reference Value column
+28qubits_03,28,QunaSys,-30.748822808,exact,QunaSys reference Value column
+28qubits_04,28,QunaSys,-30.748822808,exact,QunaSys reference Value column
+20qubits_05,20,Molecular_Opensource,-14.000000000000021,best_guess,lowest bold ADAPT-QSCI score from reference table
+24qubits_05,24,Molecular_Opensource,-9.667517470048752,best_guess,lowest bold ADAPT-QSCI score from reference table
+24qubits_06,24,Molecular_Opensource,-9.460283005059704,best_guess,lowest bold ADAPT-QSCI score from reference table
+24qubits_07,24,Molecular_Opensource,-9.965785682971944,best_guess,lowest bold ADAPT-QSCI score from reference table
+24qubits_08,24,Molecular_Opensource,-7.74244754268563,best_guess,lowest bold ADAPT-QSCI score from reference table
+24qubits_09,24,Molecular_Opensource,-13.390021054767033,best_guess,lowest bold ADAPT-QSCI score from reference table
+14qubits_05,14,,-1.6985945131381632,exact (sparse diagonalisation),"computed directly via scipy.sparse.linalg.eigsh, not from external benchmark table"
+14qubits_06,14,,-40.19016983420874,exact (sparse diagonalisation),"computed directly via scipy.sparse.linalg.eigsh, not from external benchmark table"
+16qubits_05,16,,-4.084286515725386,exact (sparse diagonalisation),"computed directly via scipy.sparse.linalg.eigsh, not from external benchmark table"
+16qubits_06,16,,-48.81367446945051,exact (sparse diagonalisation),"computed directly via scipy.sparse.linalg.eigsh, not from external benchmark table"
